@@ -1,16 +1,67 @@
-# React + Vite
+<p align="center">
+  <img src="./public//boolean-logo.png" alt="Boolean Logo" width="35">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Bool-Road</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  Web application per la consultazione dei viaggi e dei contatti dei partecipanti.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Descrizione
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Bool-Road** è una web application progettata per semplificare la gestione operativa dei viaggi di gruppo.  
+L’app consente di consultare l’elenco dei viaggi e di accedere rapidamente ai contatti dei partecipanti, rendendo più immediata la comunicazione durante le attività organizzative.
 
-## Expanding the ESLint configuration
+Il progetto è stato sviluppato con particolare attenzione alla **chiarezza dell’interfaccia** e alla **leggibilità delle informazioni**, così da risultare efficace anche in contesti dinamici o in mobilità.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Le scelte di design privilegiano:
+- accesso rapido ai dati essenziali
+- interfaccia essenziale e intuitiva
+- utilizzo fluido da smartphone
+- layout responsive adattabile a tablet e desktop
+
+---
+
+## Anteprima
+
+### Mobile - HomePage
+
+<p>
+  <img src="./public/screen-home-mobile.png" alt="Scheda viaggio" width="300">
+</p>
+
+### Scheda viaggio
+<p>
+  <img src="./public/screen1-singolo-viaggio.png" alt="Scheda viaggio" width="300">
+  <br>
+  <img src="./public/screen2-singolo-viaggio.png" alt="Scheda viaggio" width="300">
+</p>
+
+### Tablet
+<p>
+  <img src="./public/screen-home-tablet.png" alt="Scheda viaggio" width="440">
+</p>
+
+### Scheda viaggio
+<p>
+  <img src="./public/screen1-singolo-viaggio-tablet.png" alt="Scheda viaggio" width="440">
+  <br>
+  <img src="./public/screen2-singolo-viaggio-tablet.png" alt="Scheda viaggio" width="440">
+</p>
+
+### Desktop
+![Homepage desktop](./public/screen-home-desktop.png)
+![Scheda viaggio](./public/screen1-singolo-viaggio-desktop.png)
+![Scheda viaggio](./public/screen2-singolo-viaggio-desktop.png)
+
+---
+
+## Tecnologie utilizzate
+
+- Vite
+- React
+- JavaScript
+- CSS3
